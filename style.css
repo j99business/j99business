@@ -1,60 +1,26 @@
-body{
-    height: auto;
-    padding: 0%;
-    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/World-Wide-Web-Background.jpg);
+body {
+  height: auto;
+  margin-top: 20%;
+  background-color: rgb(110, 63, 153);
 }
-
-.navbar{
-    padding: 10px;
-    margin-top: 10px;
+.image-icon {
+  display: block;
+  text-align: center;
+  justify-content: center;
 }
-
-.navbar a{
-    color: white;
-    margin: 8px;
-    text-decoration: none;
+.social-icon {
+  display: block;
 }
-
-.navbar a:hover{
-    color: coral;
-    transition: 1s;
-    padding: 8px;
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 10px;
+img {
+  border-radius: 50%;
+  border: 2px solid gold;
+  padding: 10px;
+  max-width: 5%;
+  height: auto;
+  margin: 1.2rem;
+  box-shadow: 3px 3px 3px black;
 }
-
-.container{
-    margin-top: 20%;
-    text-align: center;
-}
-
-.container h1{
-    color: white;
-    text-shadow: 2px 3px 4px red;
-}
-
-p{
-    color: white;
-    font-weight: bold;
-     font-style: italic;
-}
-
-.container a{
-    color: chartreuse;
-    text-decoration: none;
-}
-
-.container a:hover{
-    color: coral;
-    border: 1px solid white;
-   padding: 8px;
-   transition: 1s;
-   border-radius: 10px;
-}
-
-.navbar .active{
-    background-color: white;
-    color: coral;
-    font-weight: bold;
+img:hover {
+  transform: scale(1.2);
+  box-shadow: 3px 3px 3px white;
 }
